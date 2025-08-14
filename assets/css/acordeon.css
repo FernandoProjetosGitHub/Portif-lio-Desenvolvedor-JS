@@ -10,8 +10,8 @@
 
 .acordeon.open,
 .acordeon:hover {
-    background-color: #55569E;
-    border-color: #55569E;
+    background-color: #ada27d;
+    border-color: #f5e6cc;
 }
 
 .acordeon .trigger {
@@ -23,7 +23,7 @@
     font-weight: 700;
     padding: 1rem 2rem;
     background-color: transparent;
-    color: #fff;
+    color: #f5e6cc;
     border: none;
 }
 
@@ -64,4 +64,7 @@
     padding: 0 1rem 1rem 2rem;
     height: auto;
     opacity: 1;
+}
+.content h3 {
+    color: #1b263b;
 }

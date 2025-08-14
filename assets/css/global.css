@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -12,10 +13,16 @@ body {
     background-color: #000;
     color: #fff;
 }
+p {
+    color: #1b263b;
+}
 
 a {
-    color: #fff;
+    color: #1b263b;
     text-decoration: none;
+}
+li {
+    color: #1b263b;
 }
 
 a:hover {
@@ -32,7 +39,7 @@ a:hover {
 .main::before,
 .main::after {
     content: '';
-    background-image: url('../img/background.svg');
+    background-color: #0d1a2a;
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

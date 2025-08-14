@@ -42,6 +42,10 @@
     align-items: center;
     margin: .5rem;
     font-size: 1.125rem;
+    color: #ffffff;
+}
+.information a {
+    color: #ffffff;
 }
 
 .information p::before {
